@@ -1,10 +1,7 @@
+/* Bar Navigation */
 #mainNav {
 	background-color: #265873;
 }
-
-/*.navbar {
-  display: none;
-}*/
 
 .navbar {
     /*position: relative;*/
@@ -32,3 +29,4 @@ a {
 div ul li a:hover{
 	color: #c7e5f5;
 }
+
