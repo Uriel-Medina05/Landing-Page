@@ -29,6 +29,12 @@ a {
 div ul li a:hover{
 	color: #c7e5f5;
 }
+.text-white {
+	color: #fff;
+}
+.page-section {
+	padding: 3rem;
+}
 
 /* Section two*/
   
@@ -99,4 +105,55 @@ p {
 
 .divider-custom.divider-light .divider-custom-icon {
   color: #a1bfcf !important;
+}
+
+/* Portfolio */
+.portfolio {
+  margin-bottom: -30px;
+}
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  background-color: rgba(199, 229, 245, 0.9);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.h-100 {
+	height: 100% !important;
+}
+.w-100 {
+	width: 100% !important;
+}
+
+
+.text-portfolio {
+	color: #265873;
 }
