@@ -37,17 +37,18 @@ div ul li a:hover{
   padding-bottom: 6rem;
   }
   .masthead-heading {
-    font-size: 2.75rem;
+    font-size: 3.75rem;
     line-height: 2.75rem;
     color: #265873;
     font-family: 'Cabin', sans-serif;
+    }
   .masthead-subheading {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
   .masthead-avatar {
-    width: 15rem;
+    width: 20rem;
   }
-}
+
 p {
   color: blue;
   font-size: 1.3rem;
@@ -93,9 +94,9 @@ p {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #a1bfcf;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #a1bfcf !important;
 }
