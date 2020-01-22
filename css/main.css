@@ -62,10 +62,7 @@ p {
 .bg-primary {
   background-color: #c7e5f5 !important;
 }
-.mb-5,
-.my-5 {
-  margin-bottom: 3rem !important;
-}
+
 
 /* Divisions */
 .divider-custom {
@@ -195,4 +192,12 @@ p {
   color: #340444 !important;
   font-family: 'Cabin', sans-serif !important;
   text-align: justify;
+}
+
+/* footer */
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #265873;
+  color: #fff;
 }
