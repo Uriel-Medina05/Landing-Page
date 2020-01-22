@@ -139,7 +139,10 @@ p {
   font-size: 1.5rem;
 }
 
-
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
 
 .img-fluid {
   max-width: 100%;
@@ -153,7 +156,32 @@ p {
 	width: 100% !important;
 }
 
+.page-section {
+  padding: 6rem 0;
+}
 
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
 .text-portfolio {
 	color: #265873;
 }
+
+ .portfolio-modal .close {
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #340444;
+    opacity: 1;
+  }
